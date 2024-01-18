@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+/*Header, navigation and top section with the dark blue colour*/
+#head_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #1F2937;
+    width:80%;
+    padding-top: 20px;
+    padding-inline: 100%;
+}
+
+#head_nav header {
+    width: 50%;
+}
+
+#head_nav nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+    
+}
+
+#head_nav header #head_logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#head_nav nav .header_link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+
+#top_section {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    width: 80%;
+    min-width: 80%;
+    padding-block: 100px;
+    padding-inline: 100%;
+}
+
+#top_section #top_left_part {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+
+#top_section #top_left_part #main_text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    width: 70%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#top_section #top_left_part #top_secondary_text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 85%;
+}
+
+#top_section #top_left_part #sign_up_button1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    width: 18%;
+    padding-block: 6px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+#top_section #top_right_part {
+    width: 50%;
+}
+
+#top_section #top_right_part #img_placeholder_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-block: 0px;
+
+}
+
+
