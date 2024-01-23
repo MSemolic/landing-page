@@ -210,7 +210,52 @@ body {
 }
 /*#endregion*/
 
+/*#region Here the css code for the CALL TO ACTION is written.*/
+#sign_up_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    margin-block: 80px;
+    padding-inline: 100px;
+    padding-block: 10px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    
+    font-family: 'Roboto', sans-serif;
+    color:#F9FAF8
+}
+    
+#sign_up_section #left_sign_up {
+    display: flex;
+    flex-direction: column;
+}
 
+h3 {
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+#sign_up_text {
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+#sign_up_button2 {
+    font-family: 'Roboto', sans-serif;
+    color:#F9FAF8;
+    font-weight: 900;
+    font-size: 18px;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    background-color: transparent;
+    padding-inline: 30px;
+    padding-block: 3px;
+}
+/*#endregion*/
+
+/*#region Here the css code for the FOOTER is written.*/
 footer {
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
@@ -221,3 +266,4 @@ footer {
     padding-block: 15px;
     padding-inline: 100%;
 }
+/*#endregion*/
