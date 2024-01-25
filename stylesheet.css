@@ -4,15 +4,16 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    margin: 0 auto;
+    width: 1080px;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 1350px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 /*#region Here the css code for HEADER and NAVIGATION bar.*/
@@ -22,9 +23,9 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     background-color: #1F2937;
-    width:80%;
+    width: 1080px;
     padding-top: 20px;
-    padding-inline: 100%;
+    padding-inline: 33%;
 }
 
 #head_nav header {
@@ -63,10 +64,9 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
-    width: 80%;
-    min-width: 80%;
+    width: 1080px;
     padding-block: 100px;
-    padding-inline: 100%;
+    padding-inline: 33%;
 }
 
 #top_section #top_left_part {
@@ -140,6 +140,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-bottom: 80px;
+    width: 1080px;
 }
 
 #random_info_section h2 {
@@ -187,8 +188,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    width: 60%;
-    padding-inline: 100%;
+    width: 1080px;
+    padding-inline: 33%;
     color:#1F2937;
     padding-block: 80px;
 }
@@ -216,7 +217,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 55%;
+    width: 1080px;
     margin-block: 80px;
     padding-inline: 100px;
     padding-block: 10px;
@@ -257,13 +258,14 @@ h3 {
 
 /*#region Here the css code for the FOOTER is written.*/
 footer {
+    text-align: center;
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #E5E7EB;
     font-size: 18px;
-    width: 30%;
+    width: 1080px;
     padding-block: 15px;
-    padding-inline: 100%;
+    padding-inline: 33%;
 }
 /*#endregion*/
